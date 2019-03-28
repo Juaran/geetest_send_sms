@@ -8,8 +8,8 @@ import requests, json
 from urllib.parse import unquote
 from multiprocessing import Pool
 
-SEND_NUMBER = 10000     # 设定1000则到手机号8位，10000到7位，类推
-SEND_PHONE = "1234567000"  # 自行修改前数位
+SEND_NUMBER = 10     # 设定1000则到手机号8位，10000到7位，类推
+SEND_PHONE = "1234567890"  # 自行修改前数位
 
 
 def send_sms(phone):
